@@ -141,9 +141,9 @@ const RoomDetails = () => {
 
             </div>
             
-            <button type='submit' className='bg-primary hover:bg-primary-dull active:scale-95 transition-all text-white rounded-md max-md:w-full'>
-                {isAvailable ? "Book Now" : "Check Availability"}
-            </button>
+            <button type='submit' className="w-full md:w-auto px-8 py-3 bg-primary text-white font-semibold rounded-xl shadow-md hover:bg-primary-dull hover:shadow-xl active:scale-95 transition-all duration-300 cursor-pointer">
+              {isAvailable ? "Book Now" : "Check Availability"}
+             </button>
 
         </form>
 

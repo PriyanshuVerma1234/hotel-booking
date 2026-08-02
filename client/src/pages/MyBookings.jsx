@@ -1,6 +1,3 @@
-
-
-
 import React, { useEffect, useState } from "react";
 import Title from "../components/Title";
 import { assets } from "../assets/assets";
